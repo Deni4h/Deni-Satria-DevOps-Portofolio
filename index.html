@@ -42,10 +42,10 @@
     </button>
     <div class="collapse navbar-collapse" id="navContent">
       <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#tentang">Tentang</a></li>
-        <li class="nav-item"><a class="nav-link" href="#skills">Keahlian</a></li>
-        <li class="nav-item"><a class="nav-link" href="#proyek">Proyek</a></li>
-        <li class="nav-item"><a class="nav-link" href="#kontak">Kontak</a></li>
+        <li class="nav-item"><a class="nav-link" href="#tentang">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skill</a></li>
+        <li class="nav-item"><a class="nav-link" href="#proyek">Project</a></li>
+        <li class="nav-item"><a class="nav-link" href="#kontak">Contact</a></li>
       </ul>
     </div>
   </div>
@@ -54,43 +54,40 @@
 <!-- Hero -->
 <section class="hero" id="home">
   <div class="container">
-    <h1 class="display-4 fw-bold">Halo, Saya Deni Satria</h1>
-    <p class="lead">Seorang <strong>DevOps Engineer</strong> yang fokus pada otomasi, CI/CD, dan deployment infrastruktur.</p>
-    <a href="#kontak" class="btn btn-primary mt-3">Hubungi Saya</a>
+    <h1 class="display-4 fw-bold">Hello, I'm Deni Satria</h1>
+    <p class="lead">A <strong>DevOps Engineer</strong> who focuses on automation, CI/CD, and infrastructure deployment.</p>
+    <a href="#kontak" class="btn btn-primary mt-3">Contact me</a>
   </div>
 </section>
 
 <!-- Tentang -->
 <section class="py-5 bg-light" id="tentang">
   <div class="container">
-    <h2 class="section-title">Tentang Saya</h2>
-    <p>Saya adalah DevOps Engineer dengan pengalaman dalam membangun pipeline CI/CD, containerisasi dengan Docker, manajemen infrastruktur dengan Ansible dan Terraform, serta monitoring menggunakan Prometheus dan Grafana. Saya suka bekerja dengan tim dan menyederhanakan proses deployment agar efisien dan scalable.</p>
+    <h2 class="section-title">About me</h2>
+    <p>A motivated fresh graduate with a solid foundation in DevOps, including CI/CD, Linux server management,
+      and automation using Bash. Familiar with Docker, Git, Jenkins, Prometheus, and Grafana. Eager to apply
+      knowledge in real-world projects and committed to continuous learning and improving system reliability.</p>
   </div>
 </section>
 
 <!-- Keahlian -->
 <section class="py-5" id="skills">
     <div class="container">
-      <h2 class="section-title text-center">Keahlian DevOps</h2>
+      <h2 class="section-title text-center">DevOps Skills</h2>
       <div class="row text-center mt-4">
         <div class="col-md-3 mb-4">
           <i class="bi bi-box-seam fs-1 text-primary"></i>
-          <h5 class="mt-2">Docker & Kubernetes</h5>
+          <h5 class="mt-2">Docker</h5>
         </div>
         <div class="col-md-3 mb-4">
           <i class="bi bi-cloud-upload fs-1 text-primary"></i>
           <h5 class="mt-2">CI/CD</h5>
-          <p class="small text-muted">(Jenkins, GitHub Actions)</p>
-        </div>
-        <div class="col-md-3 mb-4">
-          <i class="bi bi-tools fs-1 text-primary"></i>
-          <h5 class="mt-2">IaC Tools</h5>
-          <p class="small text-muted">(Terraform, Ansible)</p>
+          <p class="small text-muted">Jenkins</p>
         </div>
         <div class="col-md-3 mb-4">
           <i class="bi bi-graph-up-arrow fs-1 text-primary"></i>
           <h5 class="mt-2">Monitoring</h5>
-          <p class="small text-muted">(Prometheus, Grafana)</p>
+          <p class="small text-muted">Prometheus, Grafana</p>
         </div>
   
         <div class="col-md-3 mb-4">
@@ -110,6 +107,11 @@
           <h5 class="mt-2">Web Basic</h5>
           <p class="small text-muted">(HTML, CSS, JavaScript)</p>
         </div>
+        <div class="col-md-3 mb-4">
+          <i class="bi bi-hdd-network fs-1 text-primary"></i>
+          <h5 class="mt-2">Server Management</h5>
+          <p class="small text-muted">Linux (Ubuntu)</p>
+        </div>
       </div>
     </div>
   </section>
@@ -117,15 +119,15 @@
 <!-- Proyek -->
 <section class="py-5 bg-light" id="proyek">
     <div class="container">
-      <h2 class="section-title text-center">Proyek Saya</h2>
+      <h2 class="section-title text-center">My Project</h2>
       <div class="row mt-4">
         <div class="col-md-4 mb-4">
           <div class="card h-100 shadow-sm">
             <img src="asset/vuedockerapp.png"card-img-top" alt="CI/CD Project">
             <div class="card-body">
               <h5 class="card-title">vue-docker-app with jenkins pipeline</h5>
-              <p class="card-text">Proyek ini menggabungkan frontend Vue.js dan backend Java Spring Boot dalam arsitektur containerized menggunakan Docker.
-                Pipeline otomatis dibangun dengan Jenkins, mencakup proses build, test, dan deploy ke server.</p>
+              <p class="card-text">This project combines a Vue.js frontend and a Java Spring Boot backend in a containerized architecture using Docker.
+                An automated pipeline is built with Jenkins, covering build, test, and deploy to the server.</p>
               <a href="https://github.com/Deni4h/vue-docker-app.git" class="btn btn-primary" role="button">Kunjungi Situs</a>
             </div>
           </div>
@@ -135,8 +137,8 @@
             <img src="asset/grafana.png"card-img-top" alt="Monitoring Project">
             <div class="card-body">
               <h5 class="card-title">Monitoring Infrastruktur</h5>
-              <p class="card-text">Proyek ini berfokus pada implementasi sistem monitoring real-time menggunakan Prometheus, Node Exporter, dan Grafana.
-                Monitoring dilakukan untuk memantau performa server seperti penggunaan CPU, memori, disk, dan jaringan secara live dan historis.</p>
+              <p class="card-text">This project focuses on implementing a real-time monitoring system using Prometheus, Node Exporter, and Grafana.
+                Monitoring is done to monitor server performance such as CPU, memory, disk, and network usage live and historically.</p>
             </div>
           </div>
         </div>
@@ -144,8 +146,8 @@
           <div class="card h-100 shadow-sm">
             <img src="asset/web-sekolah.png"card-img-top" alt="Docker Deployment">
             <div class="card-body">
-              <h5 class="card-title">Website Sekolah</h5>
-              <p class="card-text">waktu disekolah saya pernah di percaya oleh guru saya untuk membuat website sekolah, Website statis yang menampilkan informasi sekolah secara lengkap dan responsif, dibuat menggunakan HTML, CSS, dan JavaScript.</p>
+              <h5 class="card-title">School Website</h5>
+              <p class="card-text">When I was at school, my teacher trusted me to create a school website, a static website that displays complete and responsive school information, created using HTML, CSS and JavaScript.</p>
               <a href="https://deni4h.github.io/SMK-MUHAMMADIYAH-2/"  class="btn btn-primary" role="button">Kunjungi situs</a>
             </div>
           </div>
@@ -158,7 +160,7 @@
 <!-- Kontak -->
 <section class="py-5" id="kontak">
   <div class="container">
-    <h2 class="section-title text-center">Hubungi Saya</h2>
+    <h2 class="section-title text-center">Contact me</h2>
     <div class="text-center mt-4">
       <p>Email: <a href="mailto:denisatria4734@gmail.com">denisatria4734@gmail.com</a></p>
       <p>LinkedIn: <a href="https://www.linkedin.com/in/deni-satria-470640306/" target="_blank">linkedin.com/in/denisatria</a></p>
